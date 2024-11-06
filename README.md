@@ -1,2 +1,2 @@
 # Veebilehe-Project-Miisude-Mafia
-Kooli gruppi project veebilehe tegemiseks.
+Kooli gruppi project veebilehe tegemiseks. 

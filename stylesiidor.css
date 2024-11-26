@@ -1,8 +1,14 @@
+body {
+    background-color: papayawhip;
+}
+
 .pilt_1{
     width: 400px;
     height: auto;
 }
 
-p{
-    font-style: Monsterrat;
+
+
+p {
+    font-family: Monserrat;
 }

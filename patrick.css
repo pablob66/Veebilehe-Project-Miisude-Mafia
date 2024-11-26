@@ -1,0 +1,9 @@
+/* styles.css */
+body {
+    text-align: center;
+    background-color: #FFEECF;
+}
+.pildid {
+    width: 300px;
+    height: auto;
+}

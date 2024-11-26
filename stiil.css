@@ -2,3 +2,12 @@
     width: 400px;
     height: auto;
 }
+@font-face {font-family: Montserrat-1; src: url(font/Montserrat-VariableFont_wght.ttf); }
+
+p{font-family: Montserrat-1;}
+
+body{background-color: #FFEECF;}
+
+@font-face {font-family: creamy; src: url(font/Sweet\ Creamy.ttf); }
+
+

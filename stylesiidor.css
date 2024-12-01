@@ -12,16 +12,17 @@ h1{font-family: Super_kinds;
     font-size: 60px;
     text-align: center;
     background-color: #FF9FB2;
-    padding:15px;
+    padding: 15px;
     -webkit-text-stroke: 2.5px #f85797; /* Outline thickness and color */
     -webkit-text-fill-color: #ffeecf;
     top: 0; /* Aligns text to the top */
     margin: 0; /* Remove default margin */}
 
 .sticky-header {
-    position: sticky;
+    position: fixed;
     top: 0; /* Makes the header stick at the top of the viewport */
-    padding: 0px 0;
+    right: 0;
+    left: 0;
     width: 100%;
     z-index: 10; /* Ensure the header stays on top of content */
 }
@@ -70,6 +71,47 @@ h1{font-family: Super_kinds;
 
 /* Add a heart before each list item */
 .heart-list li::before {
+    content: '\2764'; /* Unicode for a heart symbol */
+    color: #98B9F2; /* Heart color */
+    font-size: 1.5em; /* Size of the heart */
+    margin-right: 10px; /* Space between the heart and the text */
+}
+
+.heart-list-container {
+    background-color: #fffcf0; /* White background */
+    border-radius: 15px;      /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100wd;             /* Adjust width */
+    text-align: left;         /* Align text inside */
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.korvuti-kastid {
+    display: flex; /* Align children side by side */
+}
+
+.tekstikast {
+    background-color: #fffcf0; /* White background */
+    padding: 20px;            /* Space inside the box */
+    border-radius: 15px;      /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100wd;             /* Adjust width */
+    text-align: left;         /* Align text inside */
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Montserrat-1;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+
+.tekstikast li::before {
     content: '\2764'; /* Unicode for a heart symbol */
     color: #98B9F2; /* Heart color */
     font-size: 1.5em; /* Size of the heart */
@@ -125,8 +167,11 @@ h1{font-family: Super_kinds;
 }
 
 span {
-    font-family: Montserrat-1;
-    
+    font-family: Montserrat-1; 
+}
+
+.minitekst {
+    text-align: center;
 }
 
 .gallery {
@@ -213,9 +258,10 @@ figcaption {
 
 p {
     font-family: Montserrat-1;
-    
+    text-align: center;
 }
 
 ul {
     font-family: Montserrat-1;
+    font-size: 20px;
 }

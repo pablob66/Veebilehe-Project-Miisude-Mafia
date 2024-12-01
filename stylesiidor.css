@@ -70,6 +70,7 @@ body {
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    cursor: pointer;
 }
 
 /* Hover effect for images */
@@ -84,6 +85,45 @@ figcaption {
     font-size: 20px;
     color: #555;
     font-family: Montserrat-1;
+}
+
+/* Modal (Full Screen View) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000; /* Sit on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Modal image */
+.modal-content {
+    max-width: 90%; /* Max width of the image */
+    max-height: 90%; /* Max height of the image */
+    object-fit: contain; /* Make sure the image fits within the container */
+}
+
+/* Close button (X) */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Close button hover effect */
+.close:hover {
+    color: #ff0000;
 }
 
 .piltSid2 {

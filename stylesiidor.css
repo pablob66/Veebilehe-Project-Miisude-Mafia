@@ -64,9 +64,70 @@ h1{font-family: Super_kinds;
 }
 
 .heart-list {
-    list-style-image: url('hearticon.png'); /* Replace with your heart icon image */
+    list-style-type: none;
+    padding: 10;
 }
 
+/* Add a heart before each list item */
+.heart-list li::before {
+    content: '\2764'; /* Unicode for a heart symbol */
+    color: #98B9F2; /* Heart color */
+    font-size: 1.5em; /* Size of the heart */
+    margin-right: 10px; /* Space between the heart and the text */
+}
+
+.slider-container {
+    background-color: #fffcf0; /* White background */
+    padding: 20px;            /* Space inside the box */
+    border-radius: 15px;      /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px;             /* Adjust width */
+    text-align: left;         /* Align text inside */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between sliders */
+    margin-left: 40px;
+    
+}
+
+/* Each slider wrapper */
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+   
+}
+
+/* Label above each slider */
+.slider-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+/* The track of the slider */
+.slider-track {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* The fill inside the slider track */
+.slider-fill {
+    height: 100%;
+    background-color: #80A4ED;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.3s ease;
+}
+
+span {
+    font-family: Montserrat-1;
+    
+}
 
 .gallery {
     display: grid;
@@ -152,6 +213,7 @@ figcaption {
 
 p {
     font-family: Montserrat-1;
+    
 }
 
 ul {

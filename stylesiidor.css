@@ -2,10 +2,17 @@ body {
     background-color: papayawhip;
 }
 
-.pilt_1{
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh; /* Full height viewport for example */
+}
+.pilt1 {
     width: 400px;
     height: auto;
 }
+
 
 
 

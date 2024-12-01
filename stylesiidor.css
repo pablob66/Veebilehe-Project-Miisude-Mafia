@@ -5,8 +5,58 @@ body {
     background-color: papayawhip;
 }
 
+.container {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 400px; 
+}
+
+.container::before {
+    content: ''; 
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    width: 100vw; 
+    height: 200px; 
+    background: linear-gradient(to right,  #80A4ED, #21295C,#80A4ED); 
+    transform: translateY(-50%);
+    z-index: 1; 
+}
+
+/*.container::after {
+    content: ''; 
+    position: absolute;
+    top: calc(50% - 80px); 
+    width: 100%;
+    height: 137px; 
+    border-top: 10px dotted #ffffff; 
+    border-bottom: 10px dotted #ffffff; 
+    z-index: 1;  
+} */
+
+
+
+
 
 .piltSid {
+    position: relative;
+    z-index: 3; 
+    display: block; /* Makes the image behave like a block-level element */
+    margin: 0 auto; /* Horizontally centers the block */
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #98B9F2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+                0 10px 20px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+
+}
+
+.piltSid2 {
     display: block; /* Makes the image behave like a block-level element */
     margin: 0 auto; /* Horizontally centers the block */
     width: 400px;

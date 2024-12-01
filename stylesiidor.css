@@ -1,14 +1,14 @@
+@font-face {font-family: Montserrat-1; src: url(font/Montserrat-VariableFont_wght.ttf); }
+
+
 body {
     background-color: papayawhip;
 }
 
-.container {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;    /* Centers vertically */
-    height: 100vh; /* Full height viewport for example */
-}
-.pilt1 {
+
+.piltSid {
+    display: block; /* Makes the image behave like a block-level element */
+    margin: 0 auto; /* Horizontally centers the block */
     width: 400px;
     height: auto;
 }
@@ -17,5 +17,9 @@ body {
 
 
 p {
-    font-family: Monserrat;
+    font-family: Montserrat-1;
+}
+
+ul {
+    font-family: Montserrat-1;
 }

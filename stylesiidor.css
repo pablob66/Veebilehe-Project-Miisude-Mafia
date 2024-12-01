@@ -3,6 +3,8 @@
 
 body {
     background-color: papayawhip;
+    margin: 0; /* Removes the default margin */
+    padding: 0;
 }
 
 @font-face { font-family: Super_kinds; src: url(font/Super\ Kinds.ttf); } 
@@ -11,12 +13,19 @@ h1{font-family: Super_kinds;
     text-align: center;
     background-color: #FF9FB2;
     padding:15px;
-    color:#ffeecf;
     -webkit-text-stroke: 2.5px #f85797; /* Outline thickness and color */
     -webkit-text-fill-color: #ffeecf;
     top: 0; /* Aligns text to the top */
     margin: 0; /* Remove default margin */}
 
+.sticky-header {
+    position: sticky;
+    top: 0; /* Makes the header stick at the top of the viewport */
+    padding: 0px 0;
+    width: 100%;
+    z-index: 10; /* Ensure the header stays on top of content */
+}
+   
 
 .container {
     position: relative; 
@@ -39,18 +48,6 @@ h1{font-family: Super_kinds;
     z-index: 1; 
 }
 
-/*.container::after {
-    content: ''; 
-    position: absolute;
-    top: calc(50% - 80px); 
-    width: 100%;
-    height: 137px; 
-    border-top: 10px dotted #ffffff; 
-    border-bottom: 10px dotted #ffffff; 
-    z-index: 1;  
-} */
-
-
 .piltSid {
     position: relative;
     z-index: 3; 
@@ -66,12 +63,16 @@ h1{font-family: Super_kinds;
 
 }
 
+.heart-list {
+    list-style-image: url('hearticon.png'); /* Replace with your heart icon image */
+}
+
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Flexible column layout */
-    gap: 89px; /* 16px ilma captioniteta */
-    padding: 20px;
+    gap: 100px; /* 16px ilma captioniteta */
+    padding: 30px;
     justify-content: center;
 }
 

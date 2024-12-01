@@ -5,6 +5,19 @@ body {
     background-color: papayawhip;
 }
 
+@font-face { font-family: Super_kinds; src: url(font/Super\ Kinds.ttf); } 
+h1{font-family: Super_kinds;
+    font-size: 60px;
+    text-align: center;
+    background-color: #FF9FB2;
+    padding:15px;
+    color:#ffeecf;
+    -webkit-text-stroke: 2.5px #f85797; /* Outline thickness and color */
+    -webkit-text-fill-color: #ffeecf;
+    top: 0; /* Aligns text to the top */
+    margin: 0; /* Remove default margin */}
+
+
 .container {
     position: relative; 
     display: flex;

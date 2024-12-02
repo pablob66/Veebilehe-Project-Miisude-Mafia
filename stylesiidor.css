@@ -230,10 +230,10 @@ figcaption {
 .modal-content {
     max-width: 90%; 
     max-height: 90%; 
-    object-fit: contain; /* Make sure the image fits within the container */
+    object-fit: contain; /* pilt mahub ära */
 }
 
-/* Close button (X) */
+/* nupp X */
 .close {
     position: absolute;
     top: 20px;
@@ -245,7 +245,7 @@ figcaption {
     transition: color 0.3s ease;
 }
 
-/* Close button hover effect */
+/* X nupp hover effect */
 .close:hover {
     color: #f85797;
 }

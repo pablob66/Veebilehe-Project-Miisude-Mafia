@@ -25,4 +25,5 @@ const imageLinks = [
     // Lingid konteinerisse
     container.appendChild(link);
   });
+  // Autor: Anders-Patrick Takkis
   

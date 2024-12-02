@@ -80,6 +80,8 @@ ul {
     margin: 20px auto;
     display: inline-block;
     padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 ul li::before {
@@ -87,4 +89,10 @@ ul li::before {
     color: #98B9F2;
     font-size: 1.2em;
     margin-right: 10px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }

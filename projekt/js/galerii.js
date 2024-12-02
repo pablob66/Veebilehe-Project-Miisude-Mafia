@@ -1,25 +1,27 @@
-// Get the modal and the close button
+//Autor: Mirelle Malle Soodla
+
+// võta modal ja sulgemise nupp X
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');
 const closeBtn = document.getElementById('close-btn');
 
-// Get all the gallery images
+// Võta kõik galerii pildid
 const galleryImages = document.querySelectorAll('.piltSid2');
 
-// Loop through all images and add a click event listener
+// Lappa läbi kõik pildid ja lisa klikkimise koht
 galleryImages.forEach(image => {
     image.addEventListener('click', function() {
-        modal.style.display = 'flex'; // Show the modal
-        modalImg.src = this.src; // Set the modal image to the clicked image
+        modal.style.display = 'flex'; // näita modalit
+        modalImg.src = this.src; // pane modali pilt klikkamise pildiks
     });
 });
 
-// When the user clicks the close button, hide the modal
+// Kui kasutaja vajutab X nuppu galeriipildil, siis peida modal
 closeBtn.addEventListener('click', function() {
     modal.style.display = 'none';
 });
 
-// When the user clicks anywhere outside the modal, close it
+// Kui kasutaja vajutab mujale kui modal, siis sulge modal
 window.addEventListener('click', function(event) {
     if (event.target === modal) {
         modal.style.display = 'none';

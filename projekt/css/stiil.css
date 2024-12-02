@@ -1,5 +1,5 @@
 
-@font-face {font-family: Montserrat-1; src: url(font/Montserrat-VariableFont_wght.ttf); }
+@font-face {font-family: Montserrat-1; src: url(../font/Montserrat-VariableFont_wght.ttf); }
 
 
 body {
@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
 }
 
-@font-face { font-family: Super_kinds; src: url(font/Super\ Kinds.ttf); } 
+@font-face { font-family: Super_kinds; src: url(../font/Super\ Kinds.ttf); } 
 h1{font-family: Super_kinds;
     font-size: 60px;
     text-align: center;
@@ -21,7 +21,7 @@ h1{font-family: Super_kinds;
     margin: 0;}
 
 
-@font-face {font-family: creamy; src: url(font/Sweet\ Creamy.ttf); }
+@font-face {font-family: creamy; src: url(../font/Sweet\ Creamy.ttf); }
 
 
 h2{

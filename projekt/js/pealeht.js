@@ -1,8 +1,8 @@
 // Pildid mis viivad kasutaja teisele lingitud lehele
 const imageLinks = [
-    { src: "pildid/Siidor.jpg", href: "Mirelle.html" },
-    { src: "pildid/my_po.png", href: "Anne-Liine.html" },
-    { src: "pildid/IMG_0443.jpg", href: "Patrick.html" }
+    { src: "../pildid/Siidor.jpg", href: "../html/Mirelle.html" },
+    { src: "../pildid/my_po.png", href: "../html/Anne-Liine.html" },
+    { src: "../pildid/IMG_0443.jpg", href: "../html/Patrick.html" }
   ];
   
   // Piltide konteiner

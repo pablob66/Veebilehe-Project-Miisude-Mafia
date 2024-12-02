@@ -1,34 +1,134 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-<link rel="stylesheet" type="text/css" href="stiil.css">
-<title>Lehe STH päis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesiidor.css">
+    <title>Lehe STH päis</title>
 </head>
 <body>
+    <header class="sticky-header">
+    <h1>Mirelle kass Siidor</h1> 
+    </header>
 
-<h1>Minu kass Siidor</h1> 
-
-<img src="pildid/Siidor.jpg" alt="Kass Siidor" class="pilt_1">
-
-<p>Siidor on segutõugu kass. Ta karv on hall tumedamate triipudega.</p>
-<p>Tõug: segu tänavakass, 
-    <br>
-    Vanus: 10
-    <br>
-    Silmad: helesinise marmori värvi
-    <br>
-    Karv: kõhu juurest valge ning pealt on ta halli tumeda-triibuline.
-    <br>
-    Siidor on väga rahulik ja viisakas kass. Ta ei näita kellelegi küüsi, isegi kui sa ta sülle ja võtad ning see talle eriti ei meeldi. Tema lemmik lesimiskoht on seal, kus on inimeste lähedus ja soe: tavaliselt kas inimestega diivanil ja voodis või aknalaual päikest nautides. Tema lemmiktoit on märgtoit ja kõik, mis on ta kassisõbra Sämmie söögikausis. Tema lemmiktegevus on mõnusalt silmad kinni lesimine, aga ega ta väiksele maadlusele “ei” ütle.
     
-    Nunnusus: 7/10
-    karvasus: 8/10 
-    sõbralikkus: 10/10
-    paha kass: 2/10 Ta on muidu tagasihoidlik oma küüntega, aga oi, kuidas talle meeldib diivaneid kratsida.
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="container">
+        
+        <img src="pildid/Siidor.jpg" alt="Kass Siidor" class="piltSid">
+
+    </div>
+
+    <br>
+    <br>
+
+<p>Siidor on kass, kes armastab väga magada ja süüa</p>
+<br>
+<div class="heart-list-container">
+    <ul class="heart-list">
+        <li>Tõug: segu tänavakass</li>
+        <li>Vanus: 10</li>
+        <li>Silmad: helesinise marmori värvi</li>
+        <li>Karv: kõhu juurest valge ning pealt on ta halli tumeda-triibuline</li>
+    </ul>
+</div>
+<br>
+
+
+<div class="korvuti-kastid">
+    <div class="slider-container">
+        <div class="slider" data-value="7">
+            <span class="slider-label">Nunnusus: 7/10</span>
+            <div class="slider-track">
+                <div class="slider-fill" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="slider" data-value="8">
+            <span class="slider-label">Karvasus: 8/10</span>
+            <div class="slider-track">
+                <div class="slider-fill" style="width: 80%;"></div>
+            </div>
+        </div>
+
+        <div class="slider" data-value="10">
+            <span class="slider-label">Sõbralikkus: 10/10</span>
+            <div class="slider-track">
+                <div class="slider-fill" style="width: 100%;"></div>
+            </div>
+        </div>
+
+        <div class="slider" data-value="2">
+            <span class="slider-label">Paha kass: 2/10</span>
+            <div class="slider-track">
+                <div class="slider-fill" style="width: 20%;"></div>
+            </div>
+            <br>
+            <br>
+            <span class="minitekst">Ta on muidu tagasihoidlik oma küüntega, aga oi, kuidas talle meeldib diivaneid kratsida.</span>
+        </div>
+    </div>
+    <ul class="tekstikast">
+        <li>Siidor on väga rahulik ja viisakas kass. Ta ei näita kellelegi küüsi, isegi kui sa ta sülle võtad ning see talle eriti ei meeldi.</li>
+        <br>
+        <li>Tema lemmik lesimiskoht on seal, kus on inimeste lähedus ja soe: tavaliselt kas inimestega diivanil ja voodis või aknalaual päikest nautides.</li> 
+        <br>
+        <li>Tema lemmiktoit on märgtoit ja kõik, mis on ta kassisõbra Sämmie söögikausis.</li>
+        <br>
+        <li>Tema lemmiktegevus on mõnusalt silmad kinni lesimine, aga ega ta väiksele maadlusele “ei” ütle.</li>
+    </ul>
     
+</div>
+
+
+<p>
+     
+    <br><br/>
     Lõbus fakt: Siidorile meeldib väga istuda ümmargustes kraanikaussides, sest ta mahub sinna täpselt ära ja ta ei liigu isegi, kui sa kraani käima paned.
-    </p>
-    
+</p>
+
+<div class="gallery"> 
+    <figure>
+        <img src="pildid/Siidor_gin.jpg" alt="Kass Siidor GINiga" class="piltSid2">
+        <figcaption>9. juuli 2024
+            <br>
+            Siidor joob Ginni
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="pildid/Siidor_laual.jpg" alt="Kass Siidor istub" class="piltSid2">
+        <figcaption>9. juuli 2024
+            <br>
+            Siidor istub laual
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="pildid/Siidor_lesib.jpg" alt="Kass Siidor lesib" class="piltSid2">
+        <figcaption>1. juuli 2023
+            <br>
+            Siidor lesib vaibal nagu laisk poiss
+        </figcaption>
+    </figure>
+</div>
+
+    <div id="modal" class="modal">
+        <span class="close" id="close-btn">&times;</span>
+        <img id="modal-img" class="modal-content" src="" alt="Full Screen Image">
+    </div>
+
+<script src="galerii.js"></script>
+
 </body>
 
 

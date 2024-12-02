@@ -5,10 +5,10 @@ h1{font-family: Super_kinds;
     background-color: #FF9FB2;
     padding:15px;
     color:#ffeecf;
-    -webkit-text-stroke: 2.5px #f85797; /* Outline thickness and color */
+    -webkit-text-stroke: 2.5px #f85797; 
     -webkit-text-fill-color: #ffeecf;
-    top: 0; /* Aligns text to the top */
-    margin: 0; /* Remove default margin */
+    top: 0; 
+    margin: 0; 
     width: 100%;
     position: fixed;
 
@@ -16,7 +16,7 @@ h1{font-family: Super_kinds;
 
 body{
     background-color: #ffeecf;
-    margin: 0; /* Removes the default margin */
+    margin: 0; 
     padding: 0;
 }
 

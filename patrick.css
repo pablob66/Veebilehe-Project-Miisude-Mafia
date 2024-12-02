@@ -1,9 +1,90 @@
-/* styles.css */
-body {
-    text-align: center;
-    background-color: #FFEECF;
+@font-face {
+    font-family: Montserrat-1;
+    src: url(font/Montserrat-VariableFont_wght.ttf);
 }
-.pildid {
+
+@font-face {
+    font-family: Super_kinds;
+    src: url(font/Super\ Kinds.ttf);
+}
+
+body {
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat-1;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FF9FB2;
+    z-index: 10;
+}
+
+h1 {
+    font-family: Super_kinds;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke: 2.5px #f85797;
+    -webkit-text-fill-color: #ffeecf;
+    margin: 0;
+    padding: 15px;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.piltSid {
     width: 300px;
-    height: auto;
+    height: 300px;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.piltSid2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+    font-family: Montserrat-1;
+    color: #555;
+}
+
+ul {
+    font-family: Montserrat-1;
+    font-size: 18px;
+    text-align: left;
+    list-style-type: none;
+    margin: 20px auto;
+    display: inline-block;
+    padding: 0;
+}
+
+ul li::before {
+    content: '\2764'; /* Unicode for a heart */
+    color: #98B9F2;
+    font-size: 1.2em;
+    margin-right: 10px;
 }

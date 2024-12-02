@@ -46,6 +46,8 @@ body{
     aspect-ratio: 1 / 1;
 }
 
+@font-face {font-family: Montserrat-1; src: url(font/Montserrat-VariableFont_wght.ttf); }
 p {
     text-align: center;
+    font-family: Montserrat-1;
 }

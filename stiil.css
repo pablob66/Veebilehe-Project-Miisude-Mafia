@@ -1,6 +1,12 @@
 .pilt_1{
-    width: 400px;
+    width: 600px;
     height: auto;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Automatically centers the image horizontally */
 }
 @font-face {font-family: Montserrat-1; src: url(font/Montserrat-VariableFont_wght.ttf); }
 
@@ -9,5 +15,22 @@ p{font-family: Montserrat-1;}
 body{background-color: #FFEECF;}
 
 @font-face {font-family: creamy; src: url(font/Sweet\ Creamy.ttf); }
+h1{
+    font-family: Super_kinds;
+    font-size: 60px;
+    text-align: center;
+    padding:15px;
+    color:#ffeecf;
+    -webkit-text-stroke: 2.5px #f85797; /* Outline thickness and color */
+    -webkit-text-fill-color: #ffeecf;
+    top: 0; /* Aligns text to the top */
+    margin: 0; /* Remove default margin */}
+
+h3{
+    font-family: creamy;
+}
 
 
+li{
+    font-family: Montserrat-1;
+}

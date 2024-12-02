@@ -14,7 +14,7 @@ h1{font-family: Super_kinds;
     text-align: center;
     background-color: #FF9FB2;
     padding: 15px;
-    -webkit-text-stroke: 2.5px #f85797; /* Outline thickness and color */
+    -webkit-text-stroke: 2.5px #f85797; 
     -webkit-text-fill-color: #ffeecf;
     top: 0; /* Aligns text to the top */
     margin: 0; /* Remove default margin */}
@@ -61,7 +61,7 @@ h1{font-family: Super_kinds;
     object-fit: cover;
     border: 10px solid #98B9F2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
-                0 10px 20px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+                0 10px 20px rgba(0, 0, 0, 0.2); 
 
 }
 
@@ -79,11 +79,11 @@ h1{font-family: Super_kinds;
 }
 
 .heart-list-container {
-    background-color: #fffcf0; /* White background */
+    background-color: #fffcf0; 
     border-radius: 15px;      /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    width: 100wd;             /* Adjust width */
-    text-align: left;         /* Align text inside */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 100wd;             
+    text-align: left;         
     display: flex;
     flex-direction: column;
     margin-left: 40px;
@@ -92,16 +92,16 @@ h1{font-family: Super_kinds;
 }
 
 .korvuti-kastid {
-    display: flex; /* Align children side by side */
+    display: flex; /* Align kastid side by side */
 }
 
 .tekstikast {
-    background-color: #fffcf0; /* White background */
+    background-color: #fffcf0; 
     padding: 20px;            /* Space inside the box */
     border-radius: 15px;      /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    width: 100wd;             /* Adjust width */
-    text-align: left;         /* Align text inside */
+    width: 100wd;             
+    text-align: left;         
     display: flex;
     flex-direction: column;
     margin-left: 40px;
@@ -114,18 +114,18 @@ h1{font-family: Super_kinds;
 
 .tekstikast li::before {
     content: '\2764'; /* Unicode for a heart symbol */
-    color: #98B9F2; /* Heart color */
+    color: #98B9F2; 
     font-size: 1.5em; /* Size of the heart */
     margin-right: 10px; /* Space between the heart and the text */
 }
 
 .slider-container {
-    background-color: #fffcf0; /* White background */
+    background-color: #fffcf0; 
     padding: 20px;            /* Space inside the box */
     border-radius: 15px;      /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    width: 300px;             /* Adjust width */
-    text-align: left;         /* Align text inside */
+    width: 300px;             
+    text-align: left;         
     display: flex;
     flex-direction: column;
     gap: 20px; /* Space between sliders */
@@ -173,6 +173,7 @@ span {
 
 .minitekst {
     text-align: center;
+
 }
 
 .gallery {
@@ -183,13 +184,15 @@ span {
     justify-content: center;
 }
 
+
+
 /* Style for images */
 .gallery img {
     width: auto;
     height: 300px;
     object-fit: cover; /* Ensures the image covers the available space */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
     cursor: pointer;
 }
@@ -244,7 +247,7 @@ figcaption {
 
 /* Close button hover effect */
 .close:hover {
-    color: #ff0000;
+    color: #f85797;
 }
 
 .piltSid2 {

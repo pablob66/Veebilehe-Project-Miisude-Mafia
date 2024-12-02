@@ -24,10 +24,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: center;
+    flex-wrap: wrap;
     gap: 20px;
+    padding: 0 20px;
     margin-top: 20px;
     box-sizing: border-box;
+    overflow: hidden;
+    max-width: 100vw;
     
 }
 

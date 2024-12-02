@@ -60,7 +60,7 @@ h2{
     left: 0;
     width: 100vw; 
     height: 200px; 
-    background: linear-gradient(to right,  #80A4ED, #21295C,#80A4ED); 
+    background: linear-gradient(to right,  #f85797, #800020 ,#f85797); 
     transform: translateY(-50%);
     z-index: 1; 
 }
@@ -74,7 +74,7 @@ h2{
     height: 400px;
     border-radius: 50%;
     object-fit: cover;
-    border: 10px solid #98B9F2;
+    border: 10px solid #f85797;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
                 0 10px 20px rgba(0, 0, 0, 0.2); 
 
@@ -88,7 +88,7 @@ h2{
 
 .heart-list li::before {
     content: '\2764';
-    color: #98B9F2;
+    color: #f85797;
     font-size: 1.5em; 
     margin-right: 10px; 
 }
@@ -129,7 +129,7 @@ h2{
 
 .tekstikast li::before {
     content: '\2764'; 
-    color: #98B9F2; 
+    color: #f85797; 
     font-size: 1.5em; 
     margin-right: 10px; 
 }
@@ -176,7 +176,7 @@ h2{
 
 .slider-fill {
     height: 100%;
-    background-color: #80A4ED;
+    background-color:#800020;
     border-radius: 5px 0 0 5px;
     transition: width 0.3s ease;
 }

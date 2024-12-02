@@ -5,6 +5,7 @@ body {
     background-color: papayawhip;
     margin: 0; /* Removes the default margin */
     padding: 0;
+    overflow-x: hidden;
 }
 
 @font-face { font-family: Super_kinds; src: url(font/Super\ Kinds.ttf); } 
@@ -259,6 +260,7 @@ figcaption {
 p {
     font-family: Montserrat-1;
     text-align: center;
+    padding: 20px;
 }
 
 ul {
